@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/indpon/game/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
