@@ -13,15 +13,11 @@
 #include <cmath>
 
 // game variables
-
-int clickCount = 0;
-
+int clickCount = 99999;
 int CpC = 1;
-
 int Mult = 1;
 
 // upgrade costs & counts
-
 int upg1C = 50; // cost
 int upg1A = 0; // amount
 
@@ -38,6 +34,7 @@ void upgrade(int upgN) {
     if (upgN == 1) { // TODO: Make a better version of this upgrade thing, this is stupid.
         if (clickCount >= upg1C) {
             clickCount -= upg1C;
+            upg1A++;
             upg1C = (int)(50 * pow(1.15, upg1A));
             CpC++;
         } else {
@@ -47,9 +44,12 @@ void upgrade(int upgN) {
 
     else if (upgN == 2) {
         if (clickCount >=upg2C) {
+            upg2A++;
             clickCount -= upg2C;
-            upg2C = (int)(50 * pow(1.15, upg2A));
+            upg2C = (int)(225 * pow(1.15, upg2A));
             Mult++;
+        } else {
+            std::cout << "Not enough money! You need " << (upg2C - clickCount) << " more!" << std::endl;
         }
          
     }
