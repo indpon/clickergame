@@ -13,7 +13,7 @@
 #include <cmath>
 
 // game variables
-int clickCount = 99999;
+int clickCount = 0;
 int CpC = 1;
 int Mult = 1;
 
