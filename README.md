@@ -30,13 +30,17 @@ cmake --build .
 Then run the executable:
 
 ```bash
-./build/game
+./game
 ```
 
 ## Gameplay
 
 - Click the button to earn clicks
 - Spend clicks on upgrades to earn more clicks per click
+
+# Issues
+
+Submit an issue in the issues tab if there are any issues, and if you want to fix it, submit a PR!
 
 ## Made by
 
