@@ -1,2 +1,0 @@
-/home/indpon/game/build/CMakeFiles/edit_cache.dir
-/home/indpon/game/build/CMakeFiles/rebuild_cache.dir
