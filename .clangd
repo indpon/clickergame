@@ -1,7 +1,0 @@
-CompileFlags:
-  Add: 
-    - -Wno-everything
-Diagnostics:
-  Suppress:
-    - drv_unknown_argument
-    - pp_including_mainfile_in_preamble
