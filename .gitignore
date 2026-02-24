@@ -1,7 +1,4 @@
-build/CMakeFiles/Makefile.cmake
-build/game
-build/CMakeFiles/Makefile.cmake
-build/CMakeFiles/Makefile.cmake
-build/game
-build/CMakeFiles/Makefile.cmake
-/build
+build/
+compile_commands.json
+game
+main
