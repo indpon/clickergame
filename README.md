@@ -38,9 +38,12 @@ Then run the executable:
 - Click the button to earn clicks
 - Spend clicks on upgrades to earn more clicks per click
 
-# Issues
+## Issues
 
 Submit an issue in the issues tab if there are any issues, and if you want to fix it, submit a PR!
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Made by
 
