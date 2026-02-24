@@ -28,7 +28,7 @@ void click() {
     clickCount += baseClickAmount * Mult;
 }
 
-void upgrade(int upgN) {
+void upgrade(int upgN) { // this function is absolutely not efficeient and can probably be improved with a switch case i would imagine
     if (upgN == 1) {
         if (clickCount >= upg1Cost) {
             clickCount -= upg1Cost;
@@ -63,7 +63,7 @@ int main() {
 
     raylib::Window window(screenWidth, screenHeight, "game");
     
-    SetWindowMinSize(800, 800); // make it so people cant cut off my precious buttons
+    SetWindowMinSize(800, 800); // make it so people cant cut off my precious buttons (they still can with weird resolutions)
 
     SetTargetFPS(FPS);
 
